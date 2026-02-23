@@ -50,8 +50,6 @@ npm run build
 
 ## Despliegue manual (GitHub Pages)
 
-Este flujo cubre la parte manual del laboratorio.
-
 1. Generar la build:
 
 ```bash
@@ -103,36 +101,11 @@ Configuracion en GitHub:
 
 - `https://sgarciam9.github.io/lemonCode-modulo-8/`
 
-## Comandos utiles
 
-Ver estado:
-
-```bash
-git status
-```
-
-Subir cambios:
-
-```bash
-git add .
-git commit -m "mensaje"
-git push origin main
-```
-
-Forzar ejecucion del workflow sin cambios funcionales:
-
-```bash
-git commit --allow-empty -m "trigger pages workflow"
-git push origin main
-```
-
-## Evidencias para entrega
+## Evidencias
 
 1. Captura de `Settings -> Pages` configurado.
 2. Captura de `Actions` con workflow en verde.
 3. Captura de la URL publica funcionando.
 4. Captura de un nuevo despliegue tras push a `main`.
 
-## Documento de entrega
-
-- Ver `ENTREGA.md` para el informe listo para presentar.
